@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+        "name": "(Rust) Launch",
+        "preLaunchTask": "cargobuild",
+        "type": "lldb",
+        "request": "launch",
+        "program": "${workspaceRoot}/target/debug/remove_image_file",
+        "args": [],
+        "cwd": "${workspaceRoot}",
+        "sourceLanguages": ["rust"],
+        "terminal": "integrated"
+    }]
+}
