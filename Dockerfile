@@ -3,7 +3,7 @@ WORKDIR /usr/src/
 RUN rustup target add x86_64-unknown-linux-musl
 
 RUN USER=root cargo new deciduously-com
-WORKDIR /usr/src/deciduously-com
+WORKDIR /usr/src/deciduously-5com
 COPY Cargo.toml Cargo.lock ./
 RUN cargo build --release
 

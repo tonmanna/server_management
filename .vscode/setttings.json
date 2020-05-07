@@ -12,5 +12,6 @@
     "editor.formatOnSave": true,
     "code-runner.executorMap": {
         "rust": "cargo run # $fileName"
-    }
+    },
+    "lldb.libpython": "C:\\Users\\juran\\AppData\\Local\\Programs\\Python\\Python38-32\\python3.dll"
 }
